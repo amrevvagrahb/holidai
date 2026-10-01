@@ -204,7 +204,7 @@ if st.session_state.awaiting_approval:
     if feedback:
         st.session_state.messages.append({"role": "user", "content": feedback})
         run_graph(
-            Command(resume={"action": "approve", "feedback": feedback}),
+            Command(resume={"action": "revise", "feedback": feedback}),
             {"configurable": {"thread_id": st.session_state.thread_id}},
         )
         st.rerun()
