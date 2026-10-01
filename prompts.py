@@ -28,3 +28,4 @@ def build_classifier_prompt(
         prompt += (
             f"\nThese tool calls failed during this customer request: {failures_text}"
         )
+    return prompt
