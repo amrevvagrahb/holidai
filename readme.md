@@ -2,7 +2,7 @@
 
 Holidai is an AI trip-planning agent. Tell it where and when you're going, and it looks up the real weather forecast, local events and nearby attractions, then drafts a short vacation plan for you to approve or tweak.
 
-[Demo](holidai-3m89hpg2ew7jkbuachtzvs.streamlit.app)
+[Demo](https://holidai-3m89hpg2ew7jkbuachtzvs.streamlit.app)
 
 ## Run it yourself
 
