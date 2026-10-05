@@ -2,7 +2,7 @@
 
 Holidai is an AI trip-planning agent. Tell it where and when you're going, and it looks up the real weather forecast, local events and nearby attractions, then drafts a short vacation plan for you to approve or tweak.
 
-**Live demo:** [add your link here](https://your-app-url)
+[Demo](holidai-3m89hpg2ew7jkbuachtzvs.streamlit.app)
 
 ## Run it yourself
 
@@ -13,10 +13,10 @@ git clone https://github.com/amrevvagrahb/holidai.git
 cd holidai
 
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 pip install -r requirements.txt
 
-cp .env.example .env             # then add your two API keys
+cp .env.example .env
 streamlit run ui.py
 ```
 
